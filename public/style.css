@@ -1,0 +1,33 @@
+body{
+    margin-top: 50px;
+    background-color: brown;
+    
+}
+
+#messageArea{
+    display: none;
+}
+
+#mario-chat {
+    max-width: 600px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 2px;
+  }
+  
+  #chat-window {
+    height: 400px;
+    overflow: auto;
+    background: #f9f9f9;
+  }
+
+  .time {
+    float: right;
+    font-size: 12px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .label{
+      color: white;
+  }
